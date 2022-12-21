@@ -62,7 +62,7 @@ data/
 ~~~
 2) Run model inference with finalized weights on desired data folder.
 ~~~
-python test.py --source ./data/PCB/ --weights ./weights/baseline_fpn_loss.pt --conf 0.9
+python detect.py --source ./data/PCB/ --weights ./weights/baseline_fpn_loss.pt --conf 0.9
 ~~~
 
 ## Anomalous Trend Alarming System
